@@ -27,7 +27,7 @@ export default function Home() {
               것이다.
             </p>
             <div className="flex justify-center">
-              <Link href="/portfolio">
+              <Link legacyBehavior href="/portfolio">
                 <button className="btn-project-index">portfolio</button>
               </Link>
             </div>
